@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: montserrat;
+    color: rgba(0, 0, 0, .55);
+}
+
+.login {
+    margin-left: 50px;
+}
+
+.hero_home {
+    height: 100vh;
+    background: linear-gradient(178.36deg, rgba(48, 86, 211, 0.2) -50.17%, rgba(48, 86, 211, 0.01) 138.31%);
+    display: flex;
+}
+
+.titolo_home {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #212B36;
+}
+
+.testo_home {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #637381;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.scene,
+canvas {
+    width: 50%;
+    height: 50%;
+}
+
+.container {
+    justify-content: space-around;
+}
